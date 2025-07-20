@@ -205,3 +205,16 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Ignore Python cache
+__pycache__/
+
+# Ignore virtual environment
+venv/
+
+# Ignore credentials and tokens
+credentials.json
+token.json
+
+# Ignore environment variables if used later
+.env
